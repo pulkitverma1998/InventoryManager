@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Inventory Manager</string>
+
+    <string name="productName">Product Name</string>
+
+    <string name="Price">Price</string>
+
+    <string name="Quantity">Quantity</string>
+
+    <string name="Image">Image</string>
+
+    <string name="supplierInformation">Supplier Information</string>
+
+    <string name="name">Name</string>
+
+    <string name="phoneNumber">Phone Number</string>
+
+    <string name="emailAddress">E-mail Address</string>
+
+    <string name="empty_view_title_text">Your Inventory is empty!</string>
+
+    <string name="empty_view_subtitle_text">Add items to it now.</string>
+
+    <string name="action_delete_all_entries">Delete all items</string>
+
+    <string name="action_save">Save</string>
+
+    <string name="action_delete">Delete</string>
+
+    <string name="action_order">Order more</string>
+
+    <string name="order_message">You can place an order for this item by phone or e-mail</string>
+
+    <string name="phone">Phone</string>
+
+    <string name="email">E-mail</string>
+
+    <string name="editor_activity_title_new_item">Add a new Item</string>
+
+    <string name="editor_activity_title_edit_item">Edit Item</string>
+
+    <string name="editor_insert_item_successful">Item saved</string>
+
+    <string name="editor_insert_item_failed">Error with saving Item</string>
+
+    <string name="editor_update_item_successful">Item updated</string>
+
+    <string name="editor_update_item_failed">Error with updating Item</string>
+
+    <string name="delete_dialog_msg">Delete this item?</string>
+
+    <string name="delete">Delete</string>
+
+    <string name="cancel">Cancel</string>
+
+    <string name="editor_delete_item_successful">Item deleted</string>
+
+    <string name="editor_delete_item_failed">Error with deleting item</string>
+
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <string name="discard">Discard</string>
+
+    <string name="keep_editing">Keep Editing</string>
+</resources>

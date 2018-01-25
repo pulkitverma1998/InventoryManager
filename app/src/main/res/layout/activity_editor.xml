@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:text="@string/productName" />
+
+        <EditText
+            android:id="@+id/item_name"
+            style="@style/EditTextStyle"
+            android:maxLines="1" />
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:text="@string/Price" />
+
+        <EditText
+            android:id="@+id/item_price"
+            style="@style/EditTextStyle"
+            android:inputType="number"
+            android:maxLines="1" />
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:layout_marginBottom="16dp"
+            android:text="@string/Quantity" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/plusButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/colorPrimary"
+                android:text="+"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/item_quantity"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:inputType="number"
+                android:maxLines="1"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/minusButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/colorPrimary"
+                android:text="-"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:text="@string/Image" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/colorPrimary"
+                android:src="@drawable/add_image_48" />
+
+            <ImageButton
+                android:id="@+id/cameraButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/colorPrimary"
+                android:src="@drawable/compact_camera_48" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:text="@string/supplierInformation" />
+
+        <EditText
+            android:id="@+id/supplier_name"
+            style="@style/EditTextStyle"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:hint="@string/name"
+            android:maxLines="1" />
+
+        <EditText
+            android:id="@+id/supplier_phone_number"
+            style="@style/EditTextStyle"
+            android:layout_marginBottom="8dp"
+            android:hint="@string/phoneNumber"
+            android:inputType="phone"
+            android:maxLines="1" />
+
+        <EditText
+            android:id="@+id/supplier_email_address"
+            style="@style/EditTextStyle"
+            android:layout_marginBottom="16dp"
+            android:hint="@string/emailAddress"
+            android:maxLines="1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/delete"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/colorPrimary"
+                android:text="@string/action_delete" />
+
+            <Button
+                android:id="@+id/orderMore"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/colorPrimary"
+                android:text="@string/action_order" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
